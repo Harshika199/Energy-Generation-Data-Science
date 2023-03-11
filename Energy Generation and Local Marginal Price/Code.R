@@ -10,7 +10,7 @@ library(corrplot)
 library(FactoMineR)
 library(factoextra)
 
-df <- read_xlsx("/Users/mac/Desktop/GroupProject1/DailyNetGenerationByEnergySourceInNewEngland2.xlsx")
+df <- read_xlsx("Data.csv")
 #Monthly averages
 df$Day <- as.Date(df$Day) #Change date to date-class
 
@@ -85,9 +85,9 @@ library(readxl)
 library(janitor)
 library(corrplot)
 
-df_indivar <- read_xlsx("/Users/mac/Desktop/GroupProject1/Daily electricity demand net generation and net imports for New England____.xlsx")
-df_lmp <- read_xlsx("/Users/mac/Desktop/GroupProject1/Daily locational marginal prices.xlsx")
-df_source <- read_xlsx("/Users/mac/Desktop/GroupProject1/DailyNetGenerationByEnergySourceInNewEngland.xlsx")
+df_indivar <- read_xlsx("Data.csv")
+df_lmp <- read_xlsx("Data.csv")
+df_source <- read_xlsx("Data.csv")
 
 #daily averages
 lmp_day <- colMeans(matrix(df_lmp$`real time dollars per megawatthour ($/MWh)`,4))
