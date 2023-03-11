@@ -10,7 +10,7 @@ We examine energy generation patterns and their impact on Locational Marginal Pr
 6. Check for heteroskedasticity: A core assumption that allows us to have confidence and prediction intervals and the significance tests for the coefficients, is that the error terms are normally distributed and that the variance in those distributions are constant across all the values of the independent variables. If this is not true, it impacts the reliability of all our estimates. If the distributions don’t have constant variance, we say there is heteroskedasticity of the residuals. We used the error plot, and the Breusch Pagan Test to check this.
 7. We fixed the heteroskedasticity, performed the t test on the adjusted coefficients, and checked the significance of the variables selected to finalize our model. 
 
-### Team 
+##### Team 
 [Harshika](https://www.linkedin.com/in/harshika-g-a12553170/)   
 [Fridtjof](https://www.linkedin.com/in/fridtjofcs/)    
 [Natalie](https://www.linkedin.com/in/ziqing-liang-199838247/)   
